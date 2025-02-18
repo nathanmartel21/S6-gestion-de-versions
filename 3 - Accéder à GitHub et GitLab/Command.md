@@ -1,4 +1,4 @@
-Depuis 2020, GitHub n’accepte plus l’authentification avec un mot de passe pour les opérations Git. À la place, utilisez :
+Depuis 2020, GitHub n’accepte plus l’authentification avec un mot de passe pour les opérations Git. À la place, on peut s'authentifier de deux manières différentes :
 
 - Tokens (mots de passe spécifiques pour GitHub)
 - Clés SSH (plus sécurisé).
