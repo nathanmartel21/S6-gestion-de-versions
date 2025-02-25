@@ -12,16 +12,16 @@ Une fois que le fichier est **suivi (tracked)** :
 
 1) Créez un nouveau fichier `Sauce-Bolognaise.md`.
 
-**Etat : untracked / non suivi**
+  **Etat : untracked / non suivi**
 
 2) Ajoutez `Sauce-Bolognaise.md` à l’index de Git (`git add`).
 
-**Etat : tracked / suivi et indexé (staged)**
+  **Etat : tracked / suivi et indexé (staged)**
 
 3) Validez les changements (`git commit -m "Ajout d'une recette de sauce bolognaise."`).
 
-**Etat : tracked / suivi et inchangé (unmodified)**
+  **Etat : tracked / suivi et inchangé (unmodified)**
 
 4) Éditez `Sauce-Bolognaise.md` et enregistrez les modifications.
 
-**Etat : modified / tracked**
+  **Etat : tracked / suivi et modifié (modified)**
