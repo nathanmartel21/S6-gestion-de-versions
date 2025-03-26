@@ -5,13 +5,13 @@ cd formation-git/atelier08/
 ll
 git status
 git branch
-git log
+git log 
 git log --abbrev-commit
 git log --abbrev-commit --pretty=oneline
 git log --oneline
 cd ../atelier-12/
 git status
-git branch
+git branch 
 git log --oneline
 git switch hello-cow
 git log --oneline
@@ -25,12 +25,12 @@ git log --oneline --all --graph
 
 ```
 cd atelier15/
-ll
+ll 
 git status
 git branch
 git log --oneline
 git switch hello-cow
-git log --oneline
+git log --oneline 
 git switch hello-figlet
 git log --oneline
 ```
