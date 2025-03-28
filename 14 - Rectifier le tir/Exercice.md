@@ -8,13 +8,13 @@ git status
 git log --oneline
 git diff
 vim Roadtrip.md
-git diff
+git diff 
 git status
 git restore Roadtrip.md
 git status
 cat Roadtrip.md
 git diff --staged
-vim Roadtrip.md
+vim Roadtrip.md 
 git diff --staged
 vim Roadtrip.md
 git add Roadtrip.md
