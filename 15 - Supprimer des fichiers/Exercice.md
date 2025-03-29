@@ -36,10 +36,9 @@ ls
 git add --update
 ls
 git status
-git restore hello.sh
-git restore --staged hello.sh
+git restore --staged hello.sh #premiere etape
 git status
-git restore hello.sh
+git restore hello.sh #deuxieme etape
 git status
 ls
 cat hello.sh
