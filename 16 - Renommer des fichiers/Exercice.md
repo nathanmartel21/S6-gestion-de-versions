@@ -22,6 +22,18 @@ git commit -m "Finalement le nom initial était OK."
 ## Exercice : 
 
 ```
-
-
+cd atelier24/
+ll
+git status
+git mv Roadtrip.md Voyage.md
+git commit -m "Renommage du fichier Roadtrip.md"
+git status
+mv Cartes.md Cartes-Michelin.md
+git status
+git add --update
+git add Cartes-Michelin.md
+git status
+git commit -m "Renommage du fichier Cartes"
+git status
+ls
 ```
