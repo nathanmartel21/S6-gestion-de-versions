@@ -21,3 +21,11 @@ git revert : Annulation en douceur (sans modifier l’historique) --> Crée un n
 git reset : Réécriture de l’historique --> Supprime des commits de l'historique
 
 ## Exercice : 
+
+```
+
+
+
+
+
+```
