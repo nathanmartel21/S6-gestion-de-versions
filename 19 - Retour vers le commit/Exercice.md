@@ -25,7 +25,7 @@ git log --oneline
 - `git commit` --amend -m "..." change le nom du dernier commit
 
 - `git revert HEAD`  et  `git reset HEAD~1` --> attention au ~1 !!
-- 
+- `git diff HEAD~2 HEAD~1` et `git diff HEAD~1 HEAD` --> afficher le détail des deux derniers commits et comparer-les
 
 ## Exercice : 
 
