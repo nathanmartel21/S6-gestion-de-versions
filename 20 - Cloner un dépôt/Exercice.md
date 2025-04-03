@@ -18,3 +18,12 @@ git log --oneline --graph --all
 
 ## Exercice : 
 
+```
+mkdir -p atelier32
+cd atelier32/
+git clone https://gitlab.com/baptiste-dauphin-tool/the-art-of-command-line
+ls
+cd the-art-of-command-line/
+ls
+git log --oneline --graph --all
+```
