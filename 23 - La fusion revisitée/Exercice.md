@@ -48,8 +48,43 @@ git branch -d hello-figlet
 ## Exercice :
 
 ```
-
-
+mkdir -pv atelier34
+cd atelier34/
+git clone git@github.com:nathanmartel21/roadtrip.git
+cd roadtrip/
+ls
+cp -v ../../atelier19/Cartes.md .
+cp -v ../../atelier19/Entretien.md .
+cp -v ../../atelier19/Roadtrip.md .
+ls
+git branch cartes
+git branch entretien
+git branch roadtrip
+git switch cartes
+git add Cartes.md
+git commit -m "Ajout fichier carte"
+git switch entretien
+git add Entretien.md
+git commit -m "Ajout fichier entretien"
+git switch roadtrip
+git add Roadtrip.md
+git commit -m "Ajout fichier Roadtrip"
+git switch main
+vim README.md
+git add README.md
+git commit -m "Modification du fichier README.md"
+git push
+git merge cartes
+git push
+git merge entretien
+git push
+git merge roadtrip
+git push
+git log --oneline --graph --all
+git branch -d roadtrip
+git branch -d entretien
+git branch -d cartes
+git branch
 ```
 
 
