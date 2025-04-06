@@ -47,9 +47,48 @@ git push origin -u hello-figlet
 ## Exercice 2 :
 
 ```
+mkdir -p atelier36
+cd atelier36
+git clone git@gitlab.com:nathanmartel21/roadtrip.git
+cd roadtrip/
+ll
+cp -v ../../atelier19/* .
+ll
+git branch cartes
+git branch entretien
+git branch roadtrip
+git branch
+git switch cartes
+git add Cartes.md
+git commit -m "Ajout cartes.md"
+git switch entretien
+git add Entretien.md
+git commit -m "Ajout entretien.md"
+git switch roadtrip
+git add Roadtrip.md
+git commit -m "Ajout roadtrip.md"
+git switch main
+vim README.md
+git push
+git add README.md
+git commit -m "Ajout readme.md"
+git push
+git switch cartes
+git push -u origin cartes
+git branch
+git switch entretien
+git push -u origin entretien
+git switch roadtrip
+git push -u origin roadtrip
+```
+
+**GitLab utilise le terme "merge request" au lieu de "pull request", qui est le terme utilisé par GitHub.**
+
+## Exercice 3 : 
 
 ```
 
+```
 
 
 
