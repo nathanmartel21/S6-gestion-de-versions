@@ -87,7 +87,36 @@ git push -u origin roadtrip
 ## Exercice 3 : 
 
 ```
+Avant :
 
+[root@dockerbox roadtrip]# git log --oneline --graph --all
+* d81102b (origin/main, origin/HEAD, main) Ajout readme.md
+| * eb99445 (HEAD -> roadtrip, origin/roadtrip) Ajout roadtrip.md
+|/
+| * f2f2c7c (origin/entretien, entretien) Ajout entretien.md
+|/
+| * e5e5634 (origin/cartes, cartes) Ajout cartes.md
+|/
+* 0b329c7 Initial commit
+
+git switch main
+git pull # ou git pull origin main
+
+[root@dockerbox roadtrip]# git log --oneline --graph --all
+*   69fa06b (origin/main, origin/HEAD) Merge pull request #3 from nathanmartel21/roadtrip
+|\
+| * eb99445 (HEAD -> roadtrip, origin/roadtrip) Ajout roadtrip.md
+* |   6ca0e2c Merge pull request #2 from nathanmartel21/entretien
+|\ \
+| * | f2f2c7c (origin/entretien, entretien) Ajout entretien.md
+| |/
+* |   8e45960 Merge pull request #1 from nathanmartel21/cartes
+|\ \
+| * | e5e5634 (origin/cartes, cartes) Ajout cartes.md
+| |/
+* / d81102b (main) Ajout readme.md
+|/
+* 0b329c7 Initial commit
 ```
 
 
