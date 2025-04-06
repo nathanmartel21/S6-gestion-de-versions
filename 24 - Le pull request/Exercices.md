@@ -37,5 +37,24 @@ git push --set-upstream origin hello
 ## Exercice 1 :
 
 ```
+git branch
+git switch hello-cow
+git push -u origin hello-cow
+git switch hello-figlet
+git push origin -u hello-figlet
+```
+
+## Exercice 2 :
 
 ```
+
+```
+
+
+
+
+
+
+
+
+
