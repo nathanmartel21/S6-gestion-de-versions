@@ -27,5 +27,12 @@ git branch -vv
 ## Exercice : 
 
 ```
-
+cd ../clone-de-stephane/
+git switch -c renouveau
+vim Renouveau.md
+git add Renouveau.md
+git commit -m "Ajout renouveau."
+git push -u origin renouveu
+git push -u origin renouveau
+git branch -vv
 ```
