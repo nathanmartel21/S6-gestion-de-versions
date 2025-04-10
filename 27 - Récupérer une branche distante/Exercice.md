@@ -3,7 +3,9 @@
 `git fetch` permet simplement de récupérer les branches distantes mais pas la branche locale correspondante.
 `git pull` lui récupère les branches distantes ET met à jour la branche locale correspondante.
 
-En gros, si tu veux récupérer les branches sans modifier la branche locale (mais du coup modifier les autres branches, etc.), il faut faire git fetch
+En gros, ton git fetch met a jour les branches origin. Et du coup ensuite tu merge ta branche distante avec ta branche locale avec le git merge. Qui est l'équivalent a git pull
+
+`GIT PULL = GIT FETCH + GIT MERGE`
 
 ## Commands :
 
