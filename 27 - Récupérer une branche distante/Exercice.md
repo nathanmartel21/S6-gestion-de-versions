@@ -27,11 +27,22 @@ git branch -a -vv
 git fetch
 ls
 git switch renouveau
-git switch renouveau
 ls
 git switch voyage
 ls
 git branch -vv
+```
+
+## Exercice :
+
+```
+cd ../clone-de-stephane/
+git status
+git branch -vv -a
+git branch
+git fetch
+git branch -a -vv
+git switch voyage
 ```
 
 
