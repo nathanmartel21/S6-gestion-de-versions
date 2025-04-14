@@ -81,7 +81,7 @@ git diff HEAD~1 HEAD
 ## A retenir : 
 
 - Avant git add : git diff montre les différences entre le répertoire de travail et l’index.
-- Après git add : git diff n’affiche plus rien car l’index et le répertoire de travail sont identiques.
+- Après git add : git diff n’affiche plus rien car l’index et le répertoire de travail sont identiques
 - Avec git diff --staged : on voit les modifications ajoutées à l’index mais pas encore validées.
 
 ### Exemple :
