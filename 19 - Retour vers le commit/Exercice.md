@@ -1,3 +1,8 @@
+## Attention :
+
+pour reset, on met HEAD~1 HEAD
+pour revert, on met juste HEAD
+
 ## Commands :
 
 ```
