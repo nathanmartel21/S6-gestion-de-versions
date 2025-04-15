@@ -1,7 +1,7 @@
 ## Attention :
 
-pour reset, on met HEAD~1 HEAD
-pour revert, on met juste HEAD
+- pour reset, on met HEAD~1 (on se place sur ce commit)
+- pour revert, on met juste HEAD (on défait ce commit)
 
 ## Commands :
 
